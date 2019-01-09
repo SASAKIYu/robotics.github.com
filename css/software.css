@@ -1,0 +1,101 @@
+html {
+    font-size: 100%;
+     color: black;
+     background: #f5f5f5;
+}
+
+.all {
+    background: #f5f5f5;
+    font-size: 1rem;
+    font-family: "kosugi Maru", sans-serif;
+}
+.all h2 {
+    padding-top: 2rem;
+}
+
+body{
+    margin-left: 5%;
+    margin-right: 5%;
+}
+.slide h5 {
+    background-color: azure;
+}
+
+
+/*header*/
+header {
+    color: white;
+    font-family: 'Kosugi Maru', sans-serif;  
+}
+
+
+/*slide*/
+.slide {
+    font-family: "kosugi Maru", sans-serif;
+    margin: 0 auto;
+    margin-bottom: 5%;
+    border-left: 5%;
+    border-right: 5%;
+}
+.all video {
+    width: 100%;
+}
+.slide img {
+     position: center;
+}
+
+.slide h1 {
+    padding-top: 1rem;
+    padding-left: 3rem;
+}
+.carousel {
+    width: 80%;
+}
+
+.carousel-caption h5 {
+    color:black;
+    font-size: 3rem;
+    font-weight: bolder;
+}
+
+/*container*/
+.container h2 {
+    border-bottom: solid 0.5rem #555;
+    margin: 0 auto;
+    margin-top: 2%;
+}
+.container p {
+    padding-bottom: 0rem;
+    padding-top: 1.5rem;
+}
+.feature video {
+    margin: 0 auto;
+}
+.box8 {
+    position: relative;
+    width: 50%;
+    height: 20%;
+    padding: 0.5rem 1rem;
+    color: #232323;
+    background: #fff8e8;
+    border-left: solid 1rem #ffc06e;
+}
+.box8 p {
+    margin: 0; 
+    padding: 0;
+}
+
+/*ras*/
+.ras img {
+    height: 50%;
+    padding-top: 2rem;
+    padding-right: 1rem
+}
+
+/*last*/
+
+#copy {
+    display: block;
+    font-size: smaller;
+    text-align:center;
+}

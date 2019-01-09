@@ -1,0 +1,242 @@
+html {
+    font-size: 100%;
+}
+
+body{
+    font-size: 1rem;
+    font-family: 'Kosugi Maru', sans-serif;
+    color: #333;
+    margin: 0;
+    BACKGROUND: #F5F5F5;
+}
+h1{
+    position: relative;
+    color: white;
+    background: #81d0cb;
+    line-height: 1.4;
+    padding: 0.5em 0.5em 0.5em 1.8em;
+  }
+  
+  h1:before {/*疑似要素*/
+    font-family: "Font Awesome 5 Free";
+    content: "\f14a";
+    position: absolute;
+    left : 0.5em; /*左端からのアイコンまでの距離*/
+  }
+    
+
+/*header*/
+
+.section-title {
+    text-align:center;
+    font-weight: normal;
+    font-size: 1.9rem;
+}
+
+.section-title::after {
+    content: attr(date-subtitle);
+    display: block;
+    font-size: 1rem;
+    color: #aaaaaa;
+    padding-top: 0.6rem;
+    padding-bottom: 1.2rem;
+}
+
+
+header{
+    color: #fff;
+    background: url(../img/be.png);
+    background-size: cover;
+    font-family: 'Kosugi Maru', sans-serif;
+    width: 100vw;
+}
+
+
+header h1 {
+    margin-top: 0;
+    font-weight: normal;
+    font-size: 1.6rem;
+    margin-bottom: 0.5rem;
+}
+
+header p {
+    margin-top: 0;
+    margin-bottom: 3.1rem;
+}
+
+.btn {
+    font-size: 3.1rem;
+    display: inline-block;
+    width: 22rem;
+    background: #fff;
+    color: #f39800;
+    text-align: center;
+    text-decoration: none;
+    padding: 0.5rem 0;
+    border-radius:0.3rem;
+    opacity: 0.9;   
+}
+
+.btn:hover {
+    opacity: 1.0;
+}
+
+/*container*/
+
+.media {
+    margin-top: 3rem;
+}
+
+.container {
+    margin: 0 auto;
+    padding: 5rem 0;
+    font-family: 'Kosugi Maru', sans-serif;
+}
+.container h1 {
+    font-size: 2.5rem;
+}
+
+.container img {
+    width: 40%;
+}
+
+.media-body {
+    margin: auto;
+    padding-bottom: 5rem;
+    padding-top: 5rem;
+    padding-left: 3rem;
+}
+
+.under {
+    border-bottom: double 6px #778899;
+    }
+
+/*features */
+
+.explanation {
+    background: #f8f8f8;
+}
+
+.feature {
+    margin-top: 1.9rem;
+}
+
+.feature img {
+    width: 35vw;
+}
+
+.feature .under {
+    border-bottom: solid 3px #87CEFA;
+}
+
+.feature h1 {
+    font-weight: normal;
+    font-size: 1.5rem;
+    margin-top: 3.1rem;
+    color: #333;
+
+}
+
+.feature p {
+    margin-top: 1.2rem;
+    font-size: 1rem;
+}
+
+.feature .desc {
+    width: 34rem;
+}
+
+.feature .desc ul {
+    font-size: 1rem;
+}
+
+.feature:nth-of-type(odd) .desc {
+    float: right;
+    padding-left: 2.5rem;
+}
+
+.feature:nth-of-type(even) .desc {
+    float: left;
+    padding-right: 2.5rem;
+}
+
+/*voices*/
+.one {
+    background: #f5f5f5;
+    margin: 0 auto;
+    padding: 5rem 0;
+    padding-left: 10%;
+    padding-right: 10%;
+    font-family: 'Kosugi Maru', sans-serif;
+}
+
+.section-title {
+    padding-bottom: 2.5rem;
+}
+
+.voices {
+    background: #f8f8f8;
+    border-right: 1.5rem;
+}
+
+.voices .flex {
+    display: flex;
+    justify-content: space-between;
+}
+
+.voice {
+    width: 15rem;
+    background: #fff;
+    position: relative;
+    box-sizing: border-box;
+    padding: 3.7rem 2.5rem 1.6rem;
+}
+
+.voice img {
+    border-radius: 50%;
+    border: 1rem solod #fff;
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    top: -3.4rem;
+    padding-bottom: 0.5rem;
+}
+
+.one h1 {
+    text-align: center;
+    font-size: 2rem;
+    font-weight: normal;
+    padding-bottom: 1.5rem;
+}
+
+/*Introduction*/
+.introduction {
+    background: #FFF0F5;
+    margin: 0 auto;
+    padding: 5rem 0;
+    padding-left: 10%;
+    padding-right: 10%;
+    font-family: 'Kosugi Maru', sans-serif;
+}
+.introduction h1 {
+    font-size: 2.5rem;
+    BORDER-BOTTOM: 2REM;
+}
+.introduction img {
+    padding-right: 3rem;
+    
+}
+.kaisetu {
+    padding-top: 3rem;
+}
+
+
+/*last*/
+#copy {
+    display: block;
+    font-size: smaller;
+    text-align:center;
+}
+
+
